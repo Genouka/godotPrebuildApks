@@ -48,4 +48,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         generateReleaseNotes: false
         tag: ${{ github.ref_name }}
-        artifacts: ${{ steps.export.outputs.archive_directory }}/Android/tmp.apk
+        artifacts: ${{ steps.export.outputs.archive_directory }}/*
