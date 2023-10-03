@@ -14,6 +14,12 @@ config/name="emptyproject"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
+[display]
+
+window/stretch/mode="viewport"
+
 [rendering]
+
+textures/vram_compression/import_etc2_astc=true
 
 renderer/rendering_method="mobile"
