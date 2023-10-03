@@ -1,8 +1,8 @@
 # Whenever a tag push matching pattern "v*" then run the job
 on: 
-  push:
-    tags:
-      - "*"
+  #push:
+    #tags:
+      #- "*"
 
 jobs:
   # job id, can be anything
