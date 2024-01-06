@@ -1,5 +1,5 @@
 # Whenever a tag push matching pattern "v*" then run the job
-on: 
+on:  []
   #push:
     #tags:
       #- "*"
